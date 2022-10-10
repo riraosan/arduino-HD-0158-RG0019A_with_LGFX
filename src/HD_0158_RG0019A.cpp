@@ -1,3 +1,23 @@
+/*
+ESP32_HD0158_LGFX Library
+
+Original Source:
+https://github.com/techno/arduino-HD-0158-RG0019A
+
+Licence:
+[MIT](https://github.com/riraosan/ESP32_HD0158_LGFX/blob/master/LICENSE)
+
+Author:
+[riraosan](https://twitter.com/riraosan_0901)
+
+Contributors:
+[lovyan03](https://github.com/lovyan03)
+[M5Stack](https://github.com/m5stack)
+
+ESP32_HD0158_LGFXライブラリは以下のライブラリに依存しています。
+[M5GFX](https://github.com/m5stack/M5GFX)
+*/
+
 #include <M5GFX.h>
 #include "HD_0158_RG0019A.h"
 

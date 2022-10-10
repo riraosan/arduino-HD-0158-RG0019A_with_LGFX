@@ -1,26 +1,22 @@
 
 /*
-MIT License
+ESP32_HD0158_LGFX Library
 
-Copyright (c) 2021-2022 riraosan.github.io
+Original Source:
+https://github.com/techno/arduino-HD-0158-RG0019A
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Licence:
+[MIT](https://github.com/riraosan/ESP32_HD0158_LGFX/blob/master/LICENSE)
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Author:
+[riraosan](https://twitter.com/riraosan_0901)
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Contributors:
+[lovyan03](https://github.com/lovyan03)
+[M5Stack](https://github.com/m5stack)
+
+ESP32_HD0158_LGFXライブラリは以下のライブラリに依存しています。
+[M5GFX](https://github.com/m5stack/M5GFX)
 */
 
 #include <Arduino.h>
