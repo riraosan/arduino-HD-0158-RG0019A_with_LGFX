@@ -52,7 +52,6 @@ public:
                                    PANEL_PIN_WE,
                                    PANEL_PIN_DR,
                                    PANEL_PIN_ALE) {
-
     // For auto RAM A/B changing
     pinMode(PANEL_PIN_SE, OUTPUT);
     pinMode(PANEL_PIN_AB, OUTPUT);
@@ -61,7 +60,7 @@ public:
 
     auto cfg = _panel.config();
 
-    cfg.memory_width = cfg.panel_width = 32 * 2;
+    cfg.memory_width = cfg.panel_width = 32 * PANEL_NUM;
     cfg.memory_height = cfg.panel_height = 16;
 
     cfg.rgb_order = true;
