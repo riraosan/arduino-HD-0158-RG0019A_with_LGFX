@@ -11,10 +11,11 @@ Author:
 [riraosan](https://twitter.com/riraosan_0901)
 
 Contributors:
+[techno](https://github.com/techno)
 [lovyan03](https://github.com/lovyan03)
 [M5Stack](https://github.com/m5stack)
 
-ESP32_HD0158_LGFXライブラリは以下のライブラリに依存しています。
+The ESP32_HD0158_LGFX library depends on the following libraries.
 [M5GFX](https://github.com/m5stack/M5GFX)
 */
 
