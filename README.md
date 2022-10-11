@@ -4,7 +4,7 @@
 
 //TODO 画像
 
-This library can control the HD-1580-RG0019A LED matrix. The drawing library uses M5GFX (LovyanGFX).
+This library can control the HD-0158-RG0019A LED matrix. The drawing library uses M5GFX (LovyanGFX).
 The original author used Adafruite_GFX with [arduno-HD-0158-RG0019A](https://github.com/techno/arduino-HD-0158-RG0019A) library. 
 I replaced this library with M5GFX for the purpose of using features that M5GFX has.
 
