@@ -174,7 +174,7 @@ public:
   }
 
   void writeFillRectPreclipped(uint_fast16_t x, uint_fast16_t y, uint_fast16_t w, uint_fast16_t h, uint32_t rawcolor) {
-    log_i("here %02d %02d %02d %02d 0x%06x ", x, y, w, h, rawcolor);
+    //log_i("here %02d %02d %02d %02d 0x%06x ", x, y, w, h, rawcolor);
     for (uint_fast16_t _x = x; _x < x + w; _x++) {
       for (uint_fast16_t _y = y; _y < y + h; _y++) {
         writePixel(_x, _y, rawcolor);
